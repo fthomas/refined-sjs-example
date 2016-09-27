@@ -13,7 +13,7 @@ object Test01 extends js.JSApp {
     val x02 = refineMT[Negative](-2)
     val x03 = refineMV[Positive](3L)
     val x04 = refineMT[Negative](-4L)
-    val x05 = refineMV[Greater[W.`5.0F`.T]](5.5F)
-    val x06 = refineMT[Less[W.`-6.0`.T]](-6.5)
+    val x05 = refineMV[Greater[5.0F]](5.5F)
+    val x06 = refineMT[Less[-6.0]](-6.5)
   }
 }

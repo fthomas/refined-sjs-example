@@ -9,8 +9,8 @@ import shapeless.tag.@@
 
 @JSExport
 object Test03 {
-  val x01 = refineMT[Greater[W.`10000`.T]](20000)
-  val x02: Int @@ Greater[W.`1000`.T] = x01
-  val x03 = refineMV[Greater[W.`10000`.T]](20000)
-  val x04: Int Refined Greater[W.`1000`.T] = x03
+  val x01 = refineMT[Greater[10000]](20000)
+  val x02: Int @@ Greater[1000] = x01
+  val x03 = refineMV[Greater[10000]](20000)
+  val x04: Int Refined Greater[1000] = x03
 }

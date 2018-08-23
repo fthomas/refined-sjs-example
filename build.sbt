@@ -2,8 +2,8 @@ enablePlugins(ScalaJSPlugin)
 
 name := "refined-sjs-example"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.6"
 
-libraryDependencies += "eu.timepit" %%% "refined" % "0.5.0"
+libraryDependencies += "eu.timepit" %%% "refined" % "0.9.2"
 
-persistLauncher := true
+scalaJSUseMainModuleInitializer := true

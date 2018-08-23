@@ -2,13 +2,11 @@ package example
 
 import eu.timepit.refined._
 import eu.timepit.refined.numeric._
-import scala.scalajs.js
-import scala.scalajs.js.annotation.JSExport
+import scala.scalajs.js.annotation.JSExportTopLevel
 
-@JSExport
-object Test01 extends js.JSApp {
-  @JSExport
-  override def main(): Unit = {
+object Test01 {
+  @JSExportTopLevel("example.Test01.main")
+  def main(args: Array[String]): Unit = {
     val x01 = refineMV[Positive](1)
     val x02 = refineMT[Negative](-2)
     val x03 = refineMV[Positive](3L)

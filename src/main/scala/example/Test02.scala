@@ -2,10 +2,11 @@ package example
 
 import eu.timepit.refined._
 import eu.timepit.refined.collection.NonEmpty
-import eu.timepit.refined.string.{ EndsWith, StartsWith, Xml }
-import scala.scalajs.js.annotation.JSExport
+import eu.timepit.refined.string.{EndsWith, StartsWith, Xml}
 
-@JSExport
+import scala.scalajs.js.annotation.JSExportTopLevel
+
+@JSExportTopLevel("example.Test02")
 object Test02 {
   val x01 = refineMV[NonEmpty]("js")
   val x02 = refineMT[StartsWith[W.`"abc"`.T]]("abcdef")

@@ -14,4 +14,6 @@ object Test03 {
   val x02: Int @@ Greater[W.`1000`.T] = x01
   val x03 = refineMV[Greater[W.`10000`.T]](20000)
   val x04: Int Refined Greater[W.`1000`.T] = x03
+
+  type WidthRange = Int Refined Interval.Closed[W.`200`.T, W.`1000`.T]
 }

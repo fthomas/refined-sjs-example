@@ -11,4 +11,4 @@ cache:
   - "$HOME/.sbt/boot/"
 
 script:
-- sbt ++$TRAVIS_SCALA_VERSION clean fastOptJS clean fullOptJS
+- sbt ++$TRAVIS_SCALA_VERSION clean fastOptJS run clean fullOptJS

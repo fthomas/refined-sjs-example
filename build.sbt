@@ -1,5 +1,7 @@
 enablePlugins(ScalaJSPlugin)
 
+// comment
+
 name := "refined-sjs-example"
 
 scalaVersion := "2.12.8"

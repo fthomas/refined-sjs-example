@@ -8,6 +8,6 @@ libraryDependencies += "eu.timepit" %%% "refined" % "0.9.9"
 
 libraryDependencies += "org.http4s" %% "http4s-core" % "0.20.8"
 
-libraryDependencies += "org.typelevel" %% "cats-effect" % "1.3.0"
+libraryDependencies += "org.typelevel" %% "cats-effect" % "1.3.1"
 
 scalaJSUseMainModuleInitializer := true

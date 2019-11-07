@@ -14,6 +14,6 @@ libraryDependencies += "org.typelevel" %% "cats-free" % "1.6.0"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8"
 
-libraryDependencies += "com.nimbusds" % "nimbus-jose-jwt" % "8.2"
+libraryDependencies += "com.nimbusds" % "nimbus-jose-jwt" % "8.2.1"
 
 scalaJSUseMainModuleInitializer := true

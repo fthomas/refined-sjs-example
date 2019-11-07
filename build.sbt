@@ -12,4 +12,6 @@ libraryDependencies += "org.typelevel" %% "cats-effect" % "1.3.0"
 
 libraryDependencies += "org.typelevel" %% "cats-free" % "1.6.0"
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.6"
+
 scalaJSUseMainModuleInitializer := true

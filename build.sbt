@@ -12,7 +12,7 @@ libraryDependencies += "org.typelevel" %% "cats-effect" % "1.3.0"
 
 libraryDependencies += "org.typelevel" %% "cats-free" % "1.6.0"
 
-libraryDependencies += "io.monix" %% "monix" % "3.0.0"
+libraryDependencies += "io.monix" %% "monix" % "3.1.0"
 
 libraryDependencies += "com.nimbusds" % "nimbus-jose-jwt" % "8.2"
 

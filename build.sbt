@@ -16,6 +16,6 @@ libraryDependencies += "io.monix" %% "monix" % "3.1.0"
 
 libraryDependencies += "com.nimbusds" % "nimbus-jose-jwt" % "8.2"
 
-libraryDependencies += "org.spire-math" % "kind-projector" % "0.9.7"
+libraryDependencies += "org.typelevel" % "kind-projector" % "0.10.0"
 
 scalaJSUseMainModuleInitializer := true

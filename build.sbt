@@ -8,7 +8,7 @@ libraryDependencies += "eu.timepit" %%% "refined" % "0.9.10"
 
 libraryDependencies += "org.http4s" %% "http4s-core" % "0.20.15"
 
-libraryDependencies += "org.typelevel" %% "cats-effect" % "1.3.1"
+libraryDependencies += "org.typelevel" %% "cats-effect" % "1.4.0"
 
 libraryDependencies += "org.typelevel" %% "cats-free" % "1.6.1"
 

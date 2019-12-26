@@ -14,7 +14,7 @@ libraryDependencies += "org.typelevel" %% "cats-free" % "2.0.0"
 
 libraryDependencies += "io.monix" %% "monix" % "3.1.0"
 
-libraryDependencies += "com.nimbusds" % "nimbus-jose-jwt" % "8.3"
+libraryDependencies += "com.nimbusds" % "nimbus-jose-jwt" % "8.4"
 
 libraryDependencies += "org.spire-math" %% "kind-projector" % "0.9.10"
 

@@ -10,7 +10,7 @@ libraryDependencies += "org.http4s" %% "http4s-core" % "0.20.15"
 
 libraryDependencies += "org.typelevel" %% "cats-effect" % "2.0.0"
 
-libraryDependencies += "org.typelevel" %% "cats-free" % "2.0.0"
+libraryDependencies += "org.typelevel" %% "cats-free" % "2.1.0"
 
 libraryDependencies += "io.monix" %% "monix" % "3.1.0"
 
